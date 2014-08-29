@@ -1,0 +1,178 @@
+@charset "utf-8";
+
+
+/* INTERNET EXPLORER CSS */
+
+
+
+
+/* CSS Document */
+/********************************************************************
+ *	EMAP AWARDS TEMPLATE
+ *	Template: <TEMPLATE NAME>
+ *	Author: Fred Bradley <fred.bradley@emap.com>
+ *	Created: 28/11/2013
+ *	Last Modified: 28/11/2013
+ *******************************************************************/
+
+
+/* PLEASE Code this document in blocks, with the description of each block as a comment above! */
+
+
+/* Main Menu */
+#mainnav.navbar .navbar-inner {
+	background-color: #003853 !important;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#003853', endColorstr='#00152a', GradientType=0);
+}
+
+#mainnav.navbar {
+	background-color: #003853 !important; 
+	background: #003853 !important;
+}
+
+#header #countdown .days {
+	height:50px !important; 
+	line-height:20px;
+}
+
+/* Main Menu */
+#mainnav.navbar .navbar-inner {
+	background-color: #40c8f4   /* IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	/* IE 5-7 */
+	filter: alpha(opacity=0);
+	/* Netscape */
+	-moz-opacity: 0.0;
+	/* Safari 1.x */
+	-khtml-opacity: 0.0;
+	/* Other (Proper) browsers */
+	opacity: 0.0 !important;
+}
+
+#mainnav.navbar {
+	background-color: #40c8f4   /* IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	/* IE 5-7 */
+	filter: alpha(opacity=0);
+	/* Netscape */
+	-moz-opacity: 0.0;
+	/* Safari 1.x */
+	-khtml-opacity: 0.0;
+	/* Good browsers */
+	opacity: 0.0 !important;
+}
+
+#header #countdown .days {
+	height:50px !important; 
+	line-height:20px;
+}
+
+#mainnav .navbar-inner {
+	background-color: #40c8f4  /* IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	/* IE 5-7 */
+	filter: alpha(opacity=0);
+	/* Netscape */
+	-moz-opacity: 0.0;
+	/* Safari 1.x */
+	-khtml-opacity: 0.0;
+	/* Good browsers */
+	opacity: 0.0;
+	font-size: 11px; 
+	text-decoration: none;
+}
+.days-img {
+	/* IE 5-7 */
+	filter: alpha(opacity=0);
+	/* Netscape */
+	-moz-opacity: 0.0;
+	/* Safari 1.x */
+	-khtml-opacity: 0.0;
+	/* Good browsers */
+	opacity: 0.0;
+	font-size: 11px; 
+	text-decoration: none;
+}
+
+.accordion-heading span {
+	margin: 10px 10px 0px 0px;
+	float: right;
+}
+
+.icon-home-01{
+	background-image: url("http://www.nationalrecyclingawards.com/media/templates/EVEMAP/EMAP_NATIONAL-RECYCLING-AWARDS-2014/icons-tab.png");
+	height: 53px;
+	width: 55px;
+	margin-right: 25px;
+	image-rendering: auto;
+	background-repeat: no-repeat;
+}
+ 
+.icon-enter-01 {
+	background-image: url("http://www.nationalrecyclingawards.com/media/templates/EVEMAP/EMAP_NATIONAL-RECYCLING-AWARDS-2014/icons-tab.png");
+	height: 53px;
+	width: 55px;
+	margin-right: 25px;
+	image-rendering: auto;
+	background-repeat: no-repeat;
+	background-position-x: -176px;
+}
+ 
+.icon-judges-01{ 
+	background-image: url("http://www.nationalrecyclingawards.com/media/templates/EVEMAP/EMAP_NATIONAL-RECYCLING-AWARDS-2014/icons-tab.png");
+	height: 53px;
+	width: 57px;
+	margin-right: 25px;
+	image-rendering: auto;
+	background-repeat: no-repeat;
+	background-position-x: -357px;
+}
+
+.icon-tables-01{
+	background-image: url("http://www.nationalrecyclingawards.com/media/templates/EVEMAP/EMAP_NATIONAL-RECYCLING-AWARDS-2014/icons-tab.png");
+	height: 53px;
+	width: 57px;
+	margin-right: 25px;
+	image-rendering: auto;
+	background-repeat: no-repeat;
+	background-position-x: -453px;
+}
+
+.icon-sponsors-01{
+	background-image: url("http://www.nationalrecyclingawards.com/media/templates/EVEMAP/EMAP_NATIONAL-RECYCLING-AWARDS-2014/icons-tab.png");
+	height: 53px;
+	width: 57px;
+	margin-right: 25px;
+	image-rendering: auto;
+	background-repeat: no-repeat;
+	background-position-x: -708px;
+}
+
+.icon-awards-01{
+	background-image: url("http://www.nationalrecyclingawards.com/media/templates/EVEMAP/EMAP_NATIONAL-RECYCLING-AWARDS-2014/icons-tab.png");
+	height: 53px;
+	width: 57px;
+	margin-right: 25px;
+	image-rendering: auto;
+	background-repeat: no-repeat;
+	background-position-x: -531px;
+}
+
+.icon-subscribe-01{
+	background-image: url("http://www.nationalrecyclingawards.com/media/templates/EVEMAP/EMAP_NATIONAL-RECYCLING-AWARDS-2014/icons-tab.png");
+	height: 53px;
+	width: 60px;
+	margin-right: 21px;
+	image-rendering: auto;
+	background-repeat: no-repeat;
+	background-position-x: -885px;
+}
+
+.icon-contact-01{
+	background-image: url("http://www.nationalrecyclingawards.com/media/templates/EVEMAP/EMAP_NATIONAL-RECYCLING-AWARDS-2014/icon-email.png");
+	height: 53px;
+	width: 65px;
+	margin-left: 18px;
+	image-rendering: auto;
+	background-repeat: no-repeat;
+}

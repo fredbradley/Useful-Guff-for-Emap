@@ -1,0 +1,51 @@
+<html>
+<head>
+
+
+</head>
+<body>
+	<div id="countdown" class="span4 pull-right">
+		<div class="days pull-right">
+			<span time="1387547599" class="kkcount-down"></span>
+		</div>
+		<a class="button" href="https://www.emapawards.com/emap/421/register">
+			<img src="https://www.emapawards.com/emap/media/templates/EVEMAP/EMAP_SALES-AND-MARKETING-AWARDS-2014/button-book-now.png"/>
+		</a>
+	</div>
+
+    
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+	<script src="kkcountdown.js"></script>
+    
+	<script type="text/javascript">
+	function noCountdown() {
+		$("#countdown").hide();
+	}
+	if ($("span.kkc-dni").is(':empty')) {
+		$("#countdown").html("EMPTY");
+	}	
+	
+	$(document).ready(function(){ 
+		$( ".kkcount-down span.kkc-dni:empty" )
+			.text( "empty!" )
+			.css( "background", "rgb(255,220,200)" );
+	});
+	
+		$(".kkcount-down").kkcountdown({
+			dayText : 'day',
+			daysText : 'days',
+			hoursText : 'hours',
+			minutesText : 'minutes',
+			secondsText : 'seconds',
+			displayZeroDays : false,
+			oneDayClass : 'one-day',
+			callback : 'noCountdown',
+			addClass : 'event-countdown',
+			textAfterCount : ''
+		});
+//					$(".kkcount-down").fadeOut(500);
+
+	</script>
+    
+</body>
+</html>

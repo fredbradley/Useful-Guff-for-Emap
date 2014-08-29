@@ -1,0 +1,25 @@
+<html>
+<head>
+
+<style>
+iframe {
+
+}
+</style>
+</head>
+<body>
+
+<h1>Testing a Web 2 Lead Function</h1>
+<h2>One Click</h2>
+
+<iframe src="http://darwin.fredbradley.co.uk/emap/web2lead/web2lead-iframe.html" id="iframe"></iframe>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.1/jquery.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#iframe").ready(function(){	
+			$("<p>Hello world!</p>").appendTo("body"); 
+		});
+	}); 
+</script>
+</body>
+</html>

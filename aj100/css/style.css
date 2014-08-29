@@ -1,0 +1,194 @@
+@charset "utf-8";
+/* CSS Document */
+/********************************************************************
+ *	EMAP AWARDS TEMPLATE
+ *	Template: <TEMPLATE NAME>
+ *	Author: Fred Bradley <fred.bradley@emap.com>
+ *	Created: 28/11/2013
+ *	Last Modified: 28/11/2013
+ *******************************************************************/
+
+
+/* PLEASE Code this document in blocks, with the description of each block as a comment above! */
+
+
+/* NOTE FOR FRED: CHECK AGAINST BOOTSTRAP (3) BREAK POINTS FOR MEDIA QUERIES */
+
+/* Font Styles */
+body,
+h1,h2,h3,h4,h5,h6,p,ul,li {
+	font-family: Arial, Helvetica, sans-serif; /* In the unlikely event that a user doesn't have Arial, then it falls back to Helvetica*/
+}
+
+/* Body Styles */
+html {
+	overflow-x: hidden; /* Prevent scross on narrow devices */
+}
+body {
+	background: rgb(13, 173, 223);
+}
+#header, 
+#navigation,
+#toggle-button,
+#pagecontent,
+#footer {
+	background: #ffffff;
+}
+/* Top Navigation Bar */
+.navbar-emap {
+	background: #000000;
+	border: none;
+	color:#ffffff;
+}
+.navbar-emap {
+	color:#ffffff;
+}
+.navbar-emap ul.nav li a {
+	color:#ffffff;
+}
+.navbar-emap ul.nav li a:hover {
+	color:#ffffff;
+	text-decoration: underline;
+}
+/* Header */
+#header {
+	padding-top:10px;
+}
+
+#header #logo img {
+	margin: auto;
+}
+#header #countdown {
+	background: url('../images/daysleft.png') center no-repeat;
+	height: 200px;
+}
+#header #countdown .days  {
+	color:#ffffff;
+	text-align: center;
+	margin-top:50px;
+}
+
+#header #countdown .days span.kkc-dni {
+	font-size: 48px;
+}
+
+#header #countdown .days span.kkc-godz,
+#header #countdown .days span.kkc-min,
+#header #countdown .days span.kkc-sec {
+	display: none;
+}
+
+
+/* Main Navigation */
+#navigation {
+	border-right: 1px solid #000000;
+}
+#navigation li {
+/*	border-bottom: 1px solid #000000;*/
+}
+
+/* Toggle Button */
+#toggle-button {
+	padding-bottom: 10px;
+}
+#toggle-button button {
+	display: block;
+	margin: auto;
+}
+.btn-aj100 {
+	background: #d12a22;
+	color:#ffffff;
+}
+.btn-aj100:hover {
+	color:#ffffff;
+	background: #b02922;
+}
+/* Page Content */
+#pagecontent {
+	background: #ffffff;
+}
+
+#sponsors {
+
+}
+#sponsors .sponsor {
+	margin: 5px;
+	text-align: center;
+}
+#sponsors .sponsor img {
+	margin: auto;
+}
+/* Footer */
+#footer {
+	margin-bottom: 50px;
+	padding-bottom: 10px;
+}
+
+
+/* RESPONSIVE DESIGN */
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	 
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media screen and (max-width: 767px) {
+	/*
+ * Off Canvas
+ * --------------------------------------------------
+ */
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+  }
+
+  .row-offcanvas-right
+  .sidebar-offcanvas {
+    left: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    right: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-right.active {
+    left: 50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left.active {
+    right: 50%; /* 6 columns */
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 50%; /* 6 columns */
+  }
+  	  #sponsors img {
+	  margin: 5px;
+	  float: left !important;
+	  display: block;
+	  }
+
+}
+
+/* I DON'T THINK WE NEED THIS MEDIA QUERY HERE
+@media (max-width: 979px) {
+	
+}*/
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
+	
+}
+
